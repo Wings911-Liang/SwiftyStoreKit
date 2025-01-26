@@ -114,6 +114,10 @@
 		65F7DF881DCD4FC500835D30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F7DF831DCD4FC500835D30 /* ViewController.swift */; };
 		65F7DF8E1DCD524300835D30 /* SwiftyStoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6502F62D1B985C40004E342D /* SwiftyStoreKit.framework */; };
 		65F7DF8F1DCD524300835D30 /* SwiftyStoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6502F62D1B985C40004E342D /* SwiftyStoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84774EBF2D4684880035CD4D /* CodeRedemptionControlller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84774EBE2D4684880035CD4D /* CodeRedemptionControlller.swift */; };
+		84774EC02D4684880035CD4D /* CodeRedemptionControlller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84774EBE2D4684880035CD4D /* CodeRedemptionControlller.swift */; };
+		84774EC12D4684880035CD4D /* CodeRedemptionControlller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84774EBE2D4684880035CD4D /* CodeRedemptionControlller.swift */; };
+		84774EC22D4684880035CD4D /* CodeRedemptionControlller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84774EBE2D4684880035CD4D /* CodeRedemptionControlller.swift */; };
 		C4FD3A101C2954CD0035CFF3 /* SwiftyStoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D74BBB1C24CEC90071AD3E /* SwiftyStoreKit.framework */; };
 		C4FD3A111C2954CD0035CFF3 /* SwiftyStoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C4D74BBB1C24CEC90071AD3E /* SwiftyStoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -248,6 +252,7 @@
 		65F7DF811DCD4FC500835D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65F7DF821DCD4FC500835D30 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65F7DF831DCD4FC500835D30 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84774EBE2D4684880035CD4D /* CodeRedemptionControlller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CodeRedemptionControlller.swift; path = Sources/SwiftyStoreKit/CodeRedemptionControlller.swift; sourceTree = SOURCE_ROOT; };
 		A61BF4DD2481F4970017D9BC /* SwiftyStoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyStoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D74BBB1C24CEC90071AD3E /* SwiftyStoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyStoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4FD3A011C2954C10035CFF3 /* SwiftyStoreKit_macOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyStoreKit_macOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -347,6 +352,7 @@
 		6502F6001B985833004E342D /* SwiftyStoreKit */ = {
 			isa = PBXGroup;
 			children = (
+				84774EBE2D4684880035CD4D /* CodeRedemptionControlller.swift */,
 				2F2B8B2224A64CC000CEF088 /* AppleReceiptValidator.swift */,
 				2F2B8B2624A64CC000CEF088 /* CompleteTransactionsController.swift */,
 				2F2B8B2324A64CC000CEF088 /* InAppProductQueryRequest.swift */,
@@ -838,6 +844,7 @@
 				2F2B8B6624A64CC100CEF088 /* SwiftyStoreKit.swift in Sources */,
 				2F2B8B4A24A64CC100CEF088 /* PaymentQueueController.swift in Sources */,
 				2F2B8B4224A64CC100CEF088 /* SwiftyStoreKit+Types.swift in Sources */,
+				84774EBF2D4684880035CD4D /* CodeRedemptionControlller.swift in Sources */,
 				2F2B8B4E24A64CC100CEF088 /* InAppReceiptRefreshRequest.swift in Sources */,
 				2F2B8B3224A64CC100CEF088 /* SKProductDiscount+LocalizedPrice.swift in Sources */,
 				2F2B8B5A24A64CC100CEF088 /* ProductsInfoController.swift in Sources */,
@@ -870,6 +877,7 @@
 				2F2B8B6424A64CC100CEF088 /* SwiftyStoreKit.swift in Sources */,
 				2F2B8B4824A64CC100CEF088 /* PaymentQueueController.swift in Sources */,
 				2F2B8B4024A64CC100CEF088 /* SwiftyStoreKit+Types.swift in Sources */,
+				84774EC02D4684880035CD4D /* CodeRedemptionControlller.swift in Sources */,
 				2F2B8B4C24A64CC100CEF088 /* InAppReceiptRefreshRequest.swift in Sources */,
 				2F2B8B3024A64CC100CEF088 /* SKProductDiscount+LocalizedPrice.swift in Sources */,
 				2F2B8B5824A64CC100CEF088 /* ProductsInfoController.swift in Sources */,
@@ -920,6 +928,7 @@
 				2F2B8B6724A64CC100CEF088 /* SwiftyStoreKit.swift in Sources */,
 				2F2B8B4B24A64CC100CEF088 /* PaymentQueueController.swift in Sources */,
 				2F2B8B4324A64CC100CEF088 /* SwiftyStoreKit+Types.swift in Sources */,
+				84774EC22D4684880035CD4D /* CodeRedemptionControlller.swift in Sources */,
 				2F2B8B4F24A64CC100CEF088 /* InAppReceiptRefreshRequest.swift in Sources */,
 				2F2B8B3324A64CC100CEF088 /* SKProductDiscount+LocalizedPrice.swift in Sources */,
 				2F2B8B5B24A64CC100CEF088 /* ProductsInfoController.swift in Sources */,
@@ -942,6 +951,7 @@
 				2F2B8B6524A64CC100CEF088 /* SwiftyStoreKit.swift in Sources */,
 				2F2B8B4924A64CC100CEF088 /* PaymentQueueController.swift in Sources */,
 				2F2B8B4124A64CC100CEF088 /* SwiftyStoreKit+Types.swift in Sources */,
+				84774EC12D4684880035CD4D /* CodeRedemptionControlller.swift in Sources */,
 				2F2B8B4D24A64CC100CEF088 /* InAppReceiptRefreshRequest.swift in Sources */,
 				2F2B8B3124A64CC100CEF088 /* SKProductDiscount+LocalizedPrice.swift in Sources */,
 				2F2B8B5924A64CC100CEF088 /* ProductsInfoController.swift in Sources */,
